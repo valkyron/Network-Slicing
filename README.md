@@ -5,9 +5,27 @@ Network Slicing and it's issues, Nework Simulation and Inter-VLAN Routing using 
 
 Network slicing is a technique used to partition a single physical network infrastructure into multiple logical networks, each with its own resources, security, and quality of service (QoS) parameters. Network slicing is used in various scenarios, such as 5G mobile networks, internet of things (IoT), and cloud computing. Here are some reasons why we need network slicing:
 1.	Efficient resource utilization: Network slicing allows the sharing of a single physical network infrastructure among multiple logical networks, enabling efficient utilization of network resources. Each network slice can be customized according to its specific requirements, such as bandwidth, latency, and security.
+
+<p align="center">
+  <img src="./images/fig6.png" alt="img6" style="width:80%"> <br>
+  <i>fig6. Multiple Slice Management</i>
+</p>
+
 2.	Customized services: Network slicing enables the creation of customized services tailored to specific use cases, such as mobile broadband, smart cities, or autonomous vehicles. Each network slice can be optimized for its intended use case, providing a more efficient and reliable service.
+
+<p align="center">
+  <img src="./images/fig5.png" alt="img4" style="width:80%"> <br>
+  <i>fig5. 3GPP Slice/Service Types</i>
+</p>
+
 3.	Enhanced security: Network slicing enables the implementation of end-to-end security policies for each network slice, ensuring that sensitive data is protected and preventing unauthorized access.
 4.	Improved scalability: Network slicing enables the creation of new logical networks quickly and easily, allowing for improved scalability and flexibility.
+
+<p align="center">
+  <img src="./images/fig4.png" alt="img5" style="width:80%"> <br>
+  <i>fig4. network service types input format</i>
+</p>
+
 5.	QoS management: Network slicing enables the implementation of QoS policies for each network slice, ensuring that the network resources are allocated appropriately based on the specific requirements of each service.
 Overall, network slicing is an important technique for enabling efficient and customized network services, improving network scalability, and enhancing security and QoS management.
 
@@ -23,14 +41,22 @@ Overall, network slicing is an important technique for enabling efficient and cu
 8.	Set up the router and 2 subinterfaces, with their IP address same as the default gateways, and subnet mask according to IP address class.
 9.	Ping from one VLAN to another, and it should work.
 
-![fig1](./images/fig1.png)
-*fig1. Hub simulation*
+<p align="center">
+  <img src="./images/fig1.png" alt="img1" style="width:80%"> <br>
+  <i>fig1. Hub simulation</i>
+</p>
 
-![fig2](./images/fig2.png)
-*fig2. VLAN Configuration/ Network Slicing*
+<br>
+<p align="center">
+  <img src="./images/fig2.png" alt="img2" style="width:80%"> <br>
+  <i>fig2. VLAN Configuration/ Network Slicing</i>
+</p>
 
-![fig3](./images/fig3.png)
-*fig3. Inter VLAN Configuration of 2 VLANs*
+<br>
+<p align="center">
+  <img src="./images/fig3.png" alt="img3" style="width:80%"> <br>
+  <i>fig3. Inter VLAN Configuration of 2 VLANs</i>
+</p>
 
 ### What are the major drawbacks of 5G network slicing?
 While network slicing holds tremendous potential for 5G networks, it has its fair share of hurdles. While there is agreement on the pivotal role of network slicing in 5G, the procedure for its implementation needs to be figured out.
